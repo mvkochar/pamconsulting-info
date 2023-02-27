@@ -1,0 +1,151 @@
+.pam-relocating {
+    padding-top: 82px;
+    padding-bottom: 60px;
+    background: url("/public/images/relocating-bg.png") no-repeat;
+}
+
+.pam-relocating-tags {
+    gap: 22px;
+}
+
+.relocating-tags-item {
+    padding: 5px;
+    background: rgba(109, 49, 208, 0.5);
+    border: 1px solid rgba(109, 49, 208, 0.5);
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFDB80;
+    text-shadow: 0px 0px 80px #023F76;
+}
+
+.pam-relocating-title {
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 80px #023F76;
+}
+
+.pam-relocating-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 80px #023F76;
+}
+
+.pam-relocating-desc {
+    width: 528px;
+    margin-top: 24px;
+    margin-bottom: 23px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25), 0px 0px 80px #023F76;
+}
+
+.relocating-cities-title {
+    margin-top: 78px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.pam-relocating-cities {
+    margin-top: 16px;
+    gap: 40px
+}
+
+.relocating-cities-item {
+    width: 144px;
+    padding-top: 10px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    padding-bottom: 15px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 64.0184px 76.8221px 80px rgba(0, 0, 0, 0.07), 
+                41.4934px 49.7921px 46.8519px rgba(0, 0, 0, 0.0531481), 
+                24.659px 29.5907px 25.4815px rgba(0, 0, 0, 0.0425185), 
+                12.8037px 15.3644px 13px rgba(0, 0, 0, 0.035), 
+                5.21632px 6.25958px 6.51852px rgba(0, 0, 0, 0.0274815), 
+                1.18553px 1.42263px 3.14815px rgba(0, 0, 0, 0.0168519);
+    border-radius: 12px;
+}
+
+.cities-item-title {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #828CDE;
+}
+
+.pam-services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+}
+
+.pam-services-title {
+    width: 380px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #FDBFA3;;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pam-services-box {
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.pam-services-item {
+    width: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+    border: 1px solid #FFFFFF;   
+    border-radius: 20px;
+}
+
+.services-item-title {
+    width: 177px;
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.services-item-desc {
+    width: 320px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #434364;
+}
+
+.pam-services-item .action-btn {
+    margin: 20px auto;
+} 

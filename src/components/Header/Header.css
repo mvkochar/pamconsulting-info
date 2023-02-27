@@ -1,0 +1,30 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
+}
+.nav-list {
+    list-style-type: none;
+    gap: 14px;
+} 
+
+.nav-list-item {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.nav-list-item:nth-child(3) {
+    background: url("/public/images/arrow1.png") no-repeat 98%;
+}
+
+.nav-list-item a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
