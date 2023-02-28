@@ -148,4 +148,156 @@
 
 .pam-services-item .action-btn {
     margin: 20px auto;
-} 
+}
+
+.pam-moving {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pam-moving-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.pam-moving-desc {
+    width: 480px;
+    margin-top: 33px;
+}
+
+.pam-moving .action-btn {
+    margin: 33px auto;
+}
+
+.pam-choose {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+}
+
+.pam-choose-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.pam-choose-desc {
+    width: 580px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #434364;
+}
+
+.pam-choose-box {
+    margin-top: 60px;
+    gap: 20px
+}
+
+.pam-choose-item {
+    width: 280px;
+    text-align: center;
+}
+
+.choose-item-title {
+    width: fit-content;
+    margin: 24px auto;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #6D31D0;
+}
+
+.pam-choose-item:nth-child(2) .choose-item-title {
+    width: 192px;
+}
+
+.choose-item-subtitle {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #434364;
+}
+
+.pam-find {
+    width: 1440px;
+    height: 718.75px;
+    background: url("/public/images/ideal-location.png") no-repeat;
+}
+
+.pam-about {
+    gap: 120px;
+    padding-top: 41px;
+    padding-bottom: 37px;
+    background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+}
+
+.pam-about-title {
+    width: fit-content;
+    padding-left: 130px;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #FDBFA3;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pam-about-desc {
+    width: 480px;
+    margin-top: 24px;
+    margin-left: 130px;
+}
+
+.pam-about-info .action-btn {
+    margin-top: 54.25px;
+    margin-left: 130px;
+}
+
+.pam-about-founder {
+    gap: 33px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 46px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    opacity: 0.8;
+    box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.about-founder-title {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #6D31D0;
+}
+
+.about-founder-name {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #434364;
+}
+
+.pam-about-founder .action-btn {
+    margin-top: 17px;
+}
