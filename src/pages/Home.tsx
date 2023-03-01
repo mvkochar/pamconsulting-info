@@ -158,6 +158,127 @@ const Home = () => {
                 </div>
 
             </section>
+            <section>
+                <div className="pam-happen">
+                    <div className="container">
+                        <h3 className="pam-happen-title">How we make it happen</h3>
+                        <div className="pam-happen-box d-f">
+                            <div className="pam-happen-item">
+                                <div className="happen-item-img"><img src="images/happen1.png" alt="happen1" /></div>
+                                <div className="happen-item-title">We listen</div>
+                                <p className="happen-item-desc">
+                                    Our most prominent purpose is to understand and identify with your needs so we can 
+                                    effectively find ways to provide solutions.
+                                </p> 
+                            </div>
+                            <div className="pam-happen-item">
+                                <div className="happen-item-img"><img src="images/happen2.png" alt="happen2" /></div>
+                                <div className="happen-item-title">We strategize</div>
+                                <p className="happen-item-desc">
+                                    According to your requirements, our team designs a thorough series of steps that 
+                                    will make the relocation process as smooth as possible.
+                                </p> 
+                            </div>
+                            <div className="pam-happen-item">
+                                <div className="happen-item-img"><img src="images/happen3.png" alt="happen3" /></div>
+                                <div className="happen-item-title">We provide</div>
+                                <p className="happen-item-desc">
+                                    We implement our services that are based on efficient strategic planning 
+                                    that respond to your family’s and business’s goals and ambitions.
+                                </p> 
+                            </div>
+                            <div className="pam-happen-item">
+                                <div className="happen-item-img"><img src="images/happen4.png" alt="happen4" /></div>
+                                <div className="happen-item-title">We manage</div>
+                                <p className="happen-item-desc">
+                                    Once you are settled, we make sure that everything is according to your expectations 
+                                    and your vision of the quality of our services.
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="pam-contact">
+                    <div className="container">
+                        <h3 className="pam-contact-title">Contact us</h3>
+                        <div className="pam-contact-phone">+357 9056759</div>
+                        <div className="pam-contact-email">contact@pamrelocation.com</div>
+                        <div className="pam-contact-send">
+                            <h4 className="contact-send-title">Send inquiry</h4>
+                            <form className="contact-send-fm">
+                                <div className='input-block d-f'>                               
+                                    <input type="text" name='userName' placeholder='Your Name' />
+                                    <input type="email" name="email" placeholder='Email' />
+                                </div>
+                                <div className="input-block d-f">
+                                    <input type="text" name="subject" placeholder='Subject' />
+                                    <input type="tel" name="phone" placeholder='Phone' />    
+                                </div>
+                                <textarea name="message">Your message</textarea> 
+                                <div className="check-block d-f align-center">
+                                    <input type="checkbox" name="terms" id="terms" />
+                                    <label htmlFor="terms">By clicking “Submit button” you accept our Terms & Conditions 
+                                    and have read our Privacy Policy and Disclaimer</label>    
+                                </div>
+                                <ActionButton title='Submit'/>   
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="pam-partners">
+                    <div className="container">
+                        <h3 className="pam-partners-title">Our Partners</h3>
+                        <div className="pam-partners-box d-f">
+                           <div className="pam-partners-item"><img src="images/partner1.png" alt="partner1" /></div>
+                           <div className="pam-partners-item"><img src="images/partner2.png" alt="partner2" /></div>
+                           <div className="pam-partners-item"><img src="images/partner3.png" alt="partner3" /></div>
+                           <div className="pam-partners-item"><img src="images/partner4.png" alt="partner4" /></div>
+                           <div className="pam-partners-item"><img src="images/partner5.png" alt="partner5" /></div>
+                           <div className="pam-partners-item"><img src="images/partner6.png" alt="partner6" /></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="pam-questions">
+                    <div className="container">
+                        <h3 className="pam-questions-title">Frequently Asked Questions</h3>
+                        <div className="pam-questions-box d-f">
+                            <div className="pam-questions-item">
+                                <div className="questions-item-cat"><span>Business</span></div>
+                                <div className="questions-item-title">Question: How is the business environment in Cyprus?</div>
+                                <p className="questions-item-desc">
+                                    Answer: Cyprus is considered to be one of the most business-oriented countries of the EU, 
+                                    offering business entrepreneurs a variety of opportunities to expand their corporate 
+                                    dreams and ambitions.
+                                </p>
+                            </div>
+                            <div className="pam-questions-item">
+                                <div className="questions-item-cat"><span>Prices</span></div>
+                                <div className="questions-item-title">Question: What is the cost of living in Cyprus?</div>
+                                <p className="questions-item-desc">
+                                    Answer: In comparison to other countries of the EU, the cost of living is relatively low. Of course, 
+                                    the cost of living varies from city to city. For example, this means that living in 
+                                    Paphos might be a bit cheaper than living in Limassol. 
+                                </p>
+                            </div>
+                            <div className="pam-questions-item">
+                                <div className="questions-item-cat"><span>Migration</span></div>
+                                <div className="questions-item-title">Question: What are the best cities in Cyprus for expats?</div>
+                                <p className="questions-item-desc">
+                                    Answer: As Cyprus is among the most attractive destinations for people 
+                                    from different parts of the globe, large and thriving expat communities 
+                                    can be found in Paphos, Limassol, Larnaca, Nicosia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     )
 }
