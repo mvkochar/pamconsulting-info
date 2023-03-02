@@ -1,0 +1,101 @@
+.pmabout-main-title {
+    width: fit-content;
+    padding-left: 163px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.pmabout-team {
+    margin-top: -4px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #6D31D0;
+}
+
+.pmabout-team p {
+    width: 780px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.pmabout-team p:last-child {
+    margin-bottom: 0;
+}
+
+.pmabout-what {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 130px;
+}
+
+.pmabout-what-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.pmabout-what-desc {
+    width: 580px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #434364;
+}
+
+.pmabout-what-desc:last-child {
+    margin-bottom: 0;
+}
+
+.pmabout-why {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+}
+
+.pmabout-why-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.pmabout-why-box {
+    margin-top: 60px;
+}
+
+.pmabout-why-item {
+    width: 280px;
+    text-align: center;
+}
+
+.pmabout-what .why-item-title {
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #6D31D0;
+}
+
+.pmabout-what .why-item-desc {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #434364;
+}

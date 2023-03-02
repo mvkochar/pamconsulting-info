@@ -3,6 +3,11 @@
     padding-bottom: 20px;
     background: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
 }
+
+.header-nav {
+    position: relative;
+}
+
 .nav-list {
     list-style-type: none;
     gap: 14px;
@@ -28,3 +33,36 @@
     color: #FFFFFF;
 }
 
+.dropdown-list {
+    display: none;
+    list-style: none;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 38px;
+    left: 149px;
+}
+
+.dropdown-list-item {
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.dropdown-list-item:nth-last-child() {
+    margin-bottom: 0;
+}
+
+.dropdown-list-item a {
+    font-size: 18px;
+    line-height: 120%;
+   
+    text-decoration: none;
+    color: #434364;
+}
+
+.nav-list-item:nth-child(3):hover .dropdown-list {
+    display: block;
+}
