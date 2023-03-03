@@ -12,9 +12,9 @@ const Header = () => {
           <ul className="nav-list d-f">
             <li className="nav-list-item"><Link to="/">Home</Link></li>
             <li className="nav-list-item"><Link to= 'about'>About us</Link></li>
-            <li className="nav-list-item"><a href="">Services</a>
+            <li className="nav-list-item"><Link to='services'>Services</Link>
               <ul className="dropdown-list">
-                <li className="dropdown-list-item"><a href="">Investments opportunities</a></li>
+                <li className="dropdown-list-item"><Link to='investment'>Investments opportunities</Link></li>
                 <li className="dropdown-list-item"><a href="">Business relocation</a></li>
                 <li className="dropdown-list-item"><a href="">Family relocation</a></li>
               </ul>

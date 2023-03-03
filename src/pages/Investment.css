@@ -1,0 +1,62 @@
+.investment-main-title {
+    width: 280px;
+    margin-left: 130px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #434364;
+}
+
+.investment-estate, .investment-yachts, .investment-business {
+    margin-top: 81px;
+}
+
+.investment-info {
+    width: 580px;
+}
+
+
+
+.investment-info-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #434a64;
+}
+
+.investment-info p, .investment-info ul, .investment-info h4 {
+    margin-top: 34px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.investment-info h4 {
+    width: 529px; 
+    color: blue;
+}
+
+.investment-info p {
+   
+    color: #434364;
+}
+
+.investment-info p span {
+    font-weight: bold;
+}
+
+.investment-info ul {
+    margin-left: 20px;
+    color: #434364;
+}
+
+.investment-info h4 span {
+  color: darkblue;
+}
+
+.investment-yacht .investment-info ul {
+    color: #434364;
+}
+
