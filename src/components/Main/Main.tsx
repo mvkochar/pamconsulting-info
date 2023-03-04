@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import About from '../../pages/About'
+import BusinessRelocation from '../../pages/BusinessRelocation'
 import Home from '../../pages/Home'
 import Investment from '../../pages/Investment'
 import Services from '../../pages/Services'
@@ -20,9 +21,13 @@ const Main = () => {
         path='services'
         element={<Services/>}
       />
-       <Route
+      <Route
         path='investment'
         element={<Investment/>}
+      />
+      <Route
+        path='business-relocation'
+        element={<BusinessRelocation/>}
       />
      </Routes>
   )

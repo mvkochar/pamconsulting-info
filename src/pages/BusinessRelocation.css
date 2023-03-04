@@ -1,0 +1,81 @@
+.busrel-main-title {
+    width: fit-content;
+    margin-left: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #434364;
+}
+
+.busrel-about {
+    margin-top: 80px;
+}
+
+.busrel-about-info {
+    width: 580px;
+}
+
+.busrel-about-info h4 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.busrel-about-info p, .busrel-about-info ul {
+    margin-top: 34px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;    
+    color: #434364;
+}
+
+.busrel-about-info ul {
+    margin-left: 22px;
+}
+
+.busrel-help {
+    margin-top: 80px;
+    padding-top: 67px;
+    padding-bottom: 109px;
+    background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+}
+
+.busrel-help-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.busrel-help-box {
+    margin-top: 86px;
+}
+
+.busrel-help-item {
+    width: 180px;
+    text-align: center;
+}
+
+.busrel-help-item h4 {
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #6D31D0;
+}
+
+.busrel-help-item p {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #434364;
+}
