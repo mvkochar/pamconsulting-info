@@ -1,4 +1,5 @@
 import React from 'react'
+import ActionButton from '../components/ActionButton/ActionButton'
 import "./Investment.css"
 
 const Investment = () => {
@@ -121,6 +122,120 @@ const Investment = () => {
                 </div>
             </div> 
         </section>
+        <section>
+            <div className="investment-help">
+                <div className="container">
+                    <h3 className="investment-help-title">How We Can Help</h3>
+                    <div className="investment-help-box d-f jc-sb">
+                        <div className="investment-help-item">
+                            <div className="help-item-img"><img src="images/investment-help1.png" alt="investment-help1" /></div>
+                            <h4 className="help-item-title">We listen</h4>
+                            <p className="help-item-desc">
+                                You come to us with your goals, and we make sure to understand your needs to the fullest.
+                            </p>
+                        </div>
+                        <div className="investment-help-item">
+                            <div className="help-item-img"><img src="images/investment-help2.png" alt="investment-help2" /></div>
+                            <h4 className="help-item-title">We plan</h4>
+                            <p className="help-item-desc">
+                                We put all our efforts into creating the perfect investment plan for your family and business.
+                            </p>
+                        </div>
+                        <div className="investment-help-item">
+                            <div className="help-item-img"><img src="images/investment-help3.png" alt="investment-help3" /></div>
+                            <h4 className="help-item-title">We recommend</h4>
+                            <p className="help-item-desc">
+                                We give you the opportunity to consider a variety of options so you can have 
+                                a better understanding of investing in Cyprus.
+                            </p>
+                        </div>
+                        <div className="investment-help-item">
+                            <div className="help-item-img"><img src="images/investment-help4.png" alt="investment-help4" /></div>
+                            <h4 className="help-item-title">We provide</h4>
+                            <p className="help-item-desc">
+                                We offer you our services based on trustworthy agreements with renowned partners in Cyprus.
+                            </p>
+                        </div>
+                        <div className="investment-help-item">
+                            <div className="help-item-img"><img src="images/investment-help5.png" alt="investment-help5" /></div>
+                            <h4 className="help-item-title">We support</h4>
+                            <p className="help-item-desc">
+                                Once you decide on your investment plan, we remain by your side 
+                                to make sure everything meets your expectations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+                <div className="pam-contact">
+                    <div className="container">
+                        <h3 className="pam-contact-title">Contact us</h3>
+                        <div className="pam-contact-phone">+357 9056759</div>
+                        <div className="pam-contact-email">contact@pamrelocation.com</div>
+                        <div className="pam-contact-send">
+                            <h4 className="contact-send-title">Send inquiry</h4>
+                            <form className="contact-send-fm">
+                                <div className='input-block d-f'>                               
+                                    <input type="text" name='userName' placeholder='Your Name' />
+                                    <input type="email" name="email" placeholder='Email' />
+                                </div>
+                                <div className="input-block d-f">
+                                    <input type="text" name="subject" placeholder='Subject' />
+                                    <input type="tel" name="phone" placeholder='Phone' />    
+                                </div>
+                                <textarea name="message">Your message</textarea> 
+                                <div className="check-block d-f align-center">
+                                    <input type="checkbox" name="terms" id="terms" />
+                                    <label htmlFor="terms">By clicking “Submit button” you accept our Terms & Conditions 
+                                    and have read our Privacy Policy and Disclaimer</label>    
+                                </div>
+                                <ActionButton title='Submit'/>   
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="pam-questions">
+                    <div className="container">
+                        <h3 className="pam-questions-title">Frequently Asked Questions</h3>
+                        <div className="pam-questions-box d-f">
+                            <div className="pam-questions-item">
+                                <div className="questions-item-cat"><span>Taxes</span></div>
+                                <div className="questions-item-title">Question: What is the Tax system like in Cyprus?</div>
+                                <p className="questions-item-desc">
+                                    Answer: With one of the lowest corporate tax rates (12.5%) in the European Union, 
+                                    the tax system is attractive to foreign investors. Neither succession taxes nor 
+                                    gains from the disposal of securities are subject to tax.
+                                </p>
+                            </div>
+                            <div className="pam-questions-item">
+                                <div className="questions-item-cat"><span>Investment</span></div>
+                                <div className="questions-item-title">How long does it take to buy a property in Cyprus?</div>
+                                <p className="questions-item-desc">
+                                    Answer: The whole procedure for pur-chasing property in Cyprus should only take about 1-3 months. 
+                                    Of course, each situation is different and this time frame may vary from one individual to another. 
+                                    Our relocation services aim to simplify this process by providing guidance and assistance from start 
+                                    to finish. 
+                                </p>
+                            </div>
+                            <div className="pam-questions-item">
+                                <div className="questions-item-cat"><span>Migration</span></div>
+                                <div className="questions-item-title">Question: How long does it take 
+                                to become a permanent resident in Cyprus?</div>
+                                <p className="questions-item-desc">
+                                    Answer: While a residency card can be obtained within two months through the fast-track process, 
+                                    a permanent resident of Cyprus can apply for Cyprus Citizenship after completing 5 years (1825 days) 
+                                    of legal stay in Cyprus, according to the naturalization scheme based on years of residence (M127). 
+                                    Once acquired, permanent residency in Cyprus is valid for life. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
   )
 }
