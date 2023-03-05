@@ -1,0 +1,88 @@
+.famrel-main {
+    position: relative;
+}
+
+.famrel-main-title {
+    width: 360px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #434364;
+    position: absolute;
+    top: 45%;
+    left: 130px;
+}
+
+.famrel-about {
+    margin-top: 80px;
+}
+
+.famrel-about-info {
+    width: 598px;
+}
+
+.famrel-about-info h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.famrel-about-info h4, .famrel-about-info p, .famrel-about-info ul {
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #434364;
+} 
+
+.famrel-about-info ul {
+    margin-left: 20px;
+}
+
+.famrel-help {
+    margin-top: 80px;
+    padding-top: 67px;
+    padding-bottom: 37px;
+    background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+}
+
+.famrel-help h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.famrel-help-box {
+    margin-top: 86px;
+}
+
+.famrel-help-item {
+    width: 180px;
+    text-align: center;
+}
+
+.famrel-help-item h4 {
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #6D31D0;
+}
+
+.famrel-help-item p {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #434364;
+}

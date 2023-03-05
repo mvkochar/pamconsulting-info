@@ -16,7 +16,7 @@ const Header = () => {
               <ul className="dropdown-list">
                 <li className="dropdown-list-item"><Link to='investment'>Investments opportunities</Link></li>
                 <li className="dropdown-list-item"><Link to='business-relocation'>Business relocation</Link></li>
-                <li className="dropdown-list-item"><a href="">Family relocation</a></li>
+                <li className="dropdown-list-item"><Link to='family-relocation'>Family relocation</Link></li>
               </ul>
             </li>
             <li className="nav-list-item"><a href="">Invest in Cyprus</a></li>
