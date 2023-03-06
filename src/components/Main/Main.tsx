@@ -5,6 +5,7 @@ import BusinessRelocation from '../../pages/BusinessRelocation'
 import FamilyRelocation from '../../pages/FamilyRelocation'
 import Home from '../../pages/Home'
 import Investment from '../../pages/Investment'
+import Migration from '../../pages/Migration'
 import Services from '../../pages/Services'
 
 const Main = () => {
@@ -33,6 +34,10 @@ const Main = () => {
       <Route
         path='family-relocation'
         element={<FamilyRelocation/>}
+      />
+      <Route
+        path='migration'
+        element={<Migration/>}
       />
      </Routes>
   )

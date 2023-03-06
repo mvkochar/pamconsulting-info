@@ -1,0 +1,79 @@
+.migration-main-title {
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #434364;
+}
+
+.migration-about {
+    margin-top: 80px;
+}
+
+.migration-about-info {
+    width: 580px;
+}
+
+.migration-about-info h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.migration-about-info h4, .migration-about-info p, .migration-about-info ul {
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #434364;
+}
+
+.migration-about-info ul {
+    margin-left: 30px;
+}
+
+.migration-about-info ul span {
+    font-weight: 700;
+}
+
+.migration-help {
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+}
+
+.migration-help-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434364;
+}
+
+.migration-help-desc, .migration-help-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    letter-spacing: 0.5px;
+}
+
+.migration-help-desc {
+    width: 780px;
+    margin:  60px auto;
+    margin-bottom: 0;
+    text-align: center;
+    color: #434364;
+}
+
+.migration-help-list {
+    width: fit-content;
+    margin: 30px auto;
+    color: #6D31D0;
+}

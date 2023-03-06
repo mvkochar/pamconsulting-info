@@ -20,7 +20,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-list-item"><a href="">Invest in Cyprus</a></li>
-            <li className="nav-list-item"><a href="">Migration</a></li>
+            <li className="nav-list-item"><Link to='migration'>Migration</Link></li>
             <li className="nav-list-item"><a href="">Contact us</a></li>
           </ul>
 
