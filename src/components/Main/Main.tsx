@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import About from '../../pages/About'
 import BusinessRelocation from '../../pages/BusinessRelocation'
+import Contact from '../../pages/Contact'
 import FamilyRelocation from '../../pages/FamilyRelocation'
 import Home from '../../pages/Home'
 import Investment from '../../pages/Investment'
@@ -39,6 +40,11 @@ const Main = () => {
         path='migration'
         element={<Migration/>}
       />
+      <Route
+        path='contact'
+        element={<Contact/>}
+      />
+
      </Routes>
   )
 }
