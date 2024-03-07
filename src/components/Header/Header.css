@@ -33,6 +33,10 @@
     color: #FFFFFF;
 }
 
+.nav-list-item a:hover {
+    color: #FFFF00;
+}
+
 .dropdown-list {
     display: none;
     list-style: none;
